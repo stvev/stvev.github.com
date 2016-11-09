@@ -1,0 +1,47 @@
+
+*{ margin:0; padding:0; font-family:  'Microsoft YaHei';}
+body{ background-color:#f2f2f2;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+
+/* 顶部 */
+.back{ max-width:1920px; height:580px; position:relative; left:0; top:0; background:url(../image/01.jpg) no-repeat; overflow:hidden;}
+.back img{ position:absolute; left:50%; top:0; margin-left:-960px; height:580px;}
+/* 关于策智 */
+.about{ padding:90px 0; color:#898989;}
+.about h3{ padding-bottom:50px;   font-weight: 100; font-size:30px; }
+.about p{ font-size:16px; line-height:36px;}
+.container_bottom{ padding-bottom:100px;}
+.row1 li { float:left;}
+.row1 li img{ margin:0 auto; }
+
+.tu_bottom{ margin-bottom:90px; }
+
+.tu_bottom a{ width:20%; }
+.tu_bottom a img{ margin:0 auto;}
+
+/* 页尾 */
+.foot{ background-color:#242424; height:60px; text-align:center;  line-height:60px; font-size:14px; width:100%; color:#898989;}
+@media (min-width: 1200px){
+	.about {
+		width: 870px;
+	}
+	.row1 li{ width:20%;}
+}
+@media  screen and (max-width:800px) and (max-width:1200px){
+	.row1 li{ width:33%;}
+}
+@media  screen and (max-width:800px){
+	.row li{ width:33%;}
+}
+@media screen and (min-width:768px) and (max-width:1920px){
+	.navbar { background:rgba(0,0,0,0); border-color:rgba(0,0,0,0);}
+}
+@media screen and (min-width:320px) and (max-width:479px){
+	.back{ height:290px;}
+	.back img{height:290px;}
+	.logo{ margin-left:8px; }
+	.row1 li{ width:50%;}
+}
+	
+
